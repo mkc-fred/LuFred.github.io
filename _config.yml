@@ -4,7 +4,7 @@ name: lujiangbo # your name
 email: lujiangbo122@163.com # your email address
 description: >
     A Simple Jekyll Blog Theme. # this means to ignore newlines until "baseurl:"
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "https://lufred.github.io" # the subpath of your site, e.g. /blog
 url: "https://lufred.github.io" # the base hostname & protocol for your site
 #twitter_username: itisbenjamin1 # your Twitter username
 github_username: LuFred # your Github username
