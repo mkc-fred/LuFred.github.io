@@ -1,0 +1,26 @@
+---
+layout: page
+title: About
+subtitle:  
+permalink: /about/
+---
+
+<h2>Name</h2>
+<p>CN: 卢江波（lujiangbo） </p>
+
+<h2>About Me</h2>
+
+<p>一个好奇的程序猿 ヽ(ˋ▽ˊ)ノ</p>
+    <p><ul class="about-list">
+	
+		<li>
+			<i class="fa fa-github"></i><a href="https://github.com/{{ site.github_username }}"> Github</a>
+		</li>
+		<li>
+			<i class="fa fa-envelope"></i><a href="mailto:{{ site.email }}?subject=&nbsp;{{ site.name }}"> Email</a>
+		</li>
+	</ul></p>
+
+	{% if site.skillstree %}
+	{% include skillstree.html %}
+	{% endif %}

@@ -1,1 +1,20 @@
-baseurl:/Git
+# Site settings
+title: LuFred's Blog
+name: lujiangbo # your name
+email: lujiangbo122@163.com # your email address
+description: >
+    A Simple Jekyll Blog Theme. # this means to ignore newlines until "baseurl:"
+baseurl: "/LuFred_Blog" # the subpath of your site, e.g. /blog
+url: "https://lufred.github.io" # the base hostname & protocol for your site
+#twitter_username: itisbenjamin1 # your Twitter username
+github_username: LuFred # your Github username
+#disqus_username: itisbenjamin # your disqus username
+
+#google-analytics: UA-75034651-1 # add it if you have one
+
+skillstree: true # turn on or off the skills tree in about page
+
+# Build settings
+permalink: none
+markdown: kramdown
+
