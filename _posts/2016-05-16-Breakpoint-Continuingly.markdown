@@ -5,7 +5,7 @@ subtitle: "这篇博客主要介绍单线程和多线程分别实现HTTP协议�
 date: 2016-03-30
 author: LuJiangBo
 category: HTTP
-tags: 断点续传
+tags: HTTP
 finished: true
 ---
 
