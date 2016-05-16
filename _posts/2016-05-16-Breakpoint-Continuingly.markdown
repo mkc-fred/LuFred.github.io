@@ -4,8 +4,8 @@ title: "断点续传"
 subtitle: "这篇博客主要介绍单线程和多线程分别实现HTTP协议下的资源分段下载。"
 date: 2016-03-30
 author: LuJiangBo
-category: HTTP断点续传
-tags: HTTP断点续传
+category: Breakpoint-Continuingly1
+tags: Breakpoint-Continuingly2
 finished: true
 ---
 
