@@ -4,7 +4,7 @@ title: "单例模式"
 subtitle: "单例模式."
 date: 2016-05-13
 author: LuJiangBo
-category: 设计模式
+category: Software design pattern
 tags: 设计模式
 finished: true
 ---
