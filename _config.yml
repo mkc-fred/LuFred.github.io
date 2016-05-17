@@ -15,6 +15,6 @@ github_username: LuFred # your Github username
 skillstree: true # turn on or off the skills tree in about page
 
 # Build settings
-permalink: none
+permalink: /:year/:month/:day/:title
 markdown: kramdown
 
