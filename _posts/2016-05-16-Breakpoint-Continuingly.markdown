@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "断点续传"
-subtitle: "这篇博客主要介绍单线程和多线程分别实现HTTP协议下的资源分段下载。"
+subtitle: "这篇博客主要介绍单线程和多线程分别如何实现HTTP协议下的资源分段下载，底部附代码链接。"
 date: 2016-03-30
 author: LuJiangBo
 category: HTTP
@@ -389,7 +389,8 @@ namespace 断点下载
 
 {% endhighlight %}
 
-
+## 源代码  
+[源代码链接]({{ post.url| prepend: site.url  }}/content/zip/201605/Breakpoint-ContinuinglyDemo.rar) 
 
 
 
