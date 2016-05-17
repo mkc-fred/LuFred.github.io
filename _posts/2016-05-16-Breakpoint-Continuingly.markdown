@@ -2,7 +2,7 @@
 layout: post
 title: "断点续传"
 subtitle: "这篇博客主要介绍单线程和多线程分别如何实现HTTP协议下的资源分段下载，底部附代码链接。"
-date: 2016-03-30
+date: 2016-05-16
 author: LuJiangBo
 category: HTTP
 tags: HTTP

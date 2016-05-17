@@ -2,7 +2,7 @@
 layout: post
 title: "单例模式"
 subtitle: "单例模式."
-date: 2016-03-30
+date: 2016-05-13
 author: LuJiangBo
 category: 设计模式
 tags: 设计模式
