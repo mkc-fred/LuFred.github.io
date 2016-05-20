@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "WebPack初体验"
-subtitle: "最近公司新的项目在前端换了一套新的一套View框架([React](https://facebook.github.io/react/)),所以原来那套Knockout＋requiseJS技术组合有点不适合用在这里，Google了一下发现一个用于React开发和模块管理的最佳工具是一个叫Webpack的货。所以下面就是对它的一个最基本了解。"
+subtitle: "最近公司新的项目在前端换了一套新的一套View框架(React),所以原来那套Knockout＋requiseJS技术组合有点不适合用在这里，Google了一下发现一个用于React开发和模块管理的最佳工具是一个叫Webpack的货。所以下面就是对它的一个最基本了解。"
 date: 2016-05-20
 author: LuJiangBo
 category: JavaScript
