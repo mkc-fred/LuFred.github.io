@@ -48,8 +48,8 @@ package.json中包含各种所需模块以及项目的配置信息(名称、版�
     module.exports = cats;
 {% endhighlight %}
 
-### 2.创建一个app.js 文件 依赖于cats.js
-
+### 2.创建一个app.js 文件 
+依赖于cats.js  
 {% highlight javascript %}
     cats = require('./cats.js');
     console.log(cats);
