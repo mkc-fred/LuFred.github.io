@@ -2,7 +2,7 @@
 layout: post
 title: "DotNet Core安装篇"
 subtitle: "在'跨平台'、'开源'，这些关键字大行其道的今天，我们的大微软不甘落后终于也推出了.Net Core，它是参考.Net Framework开发的一套跨平台.Net基础。既然他说跨平台那今天咱是不是就直接在Mac环境下敲一个Hellow World出来。下面就是在Mac环境下搭建的 .Net Core环境。"
-date: 2016-05-20
+date: 2016-05-21
 author: LuJiangBo
 category: DotNet Core
 tags: DotNetCore
@@ -16,8 +16,9 @@ finished: true
 
 由于 .NET Core 的开发目标是跨平台的 .NET 平台，因此 .NET Core 会包含 .NET Framework 的类的库，但与 .NET Framework 不同的是 .NET Core 采用包化 (Packages) 的管理方式，应用程序只需要获取需要的组件即可，与 .NET Framework 大包式安装的作法截然不同，同时各包亦有独立的版本线 (Version line)，不再硬性要求应用程序跟随主线版本。
 
-## 安装
-### 1.安装准备工作  
+## 安装  
+
+### 1.准备工作  
 
 在使用.NET Core前, 你需要通过[brew](http://brew.sh)安装OpenSSL,然后再执行下面的命令:  
 >brew update  
@@ -27,7 +28,7 @@ finished: true
 ### 2.安装.NET Core SDK
 在开始安装前，为确保成功，你需要删除你先前安装的.Net Core版本，通过下面的命令:  
 直接复制下面代码贴到Terminal中执行即可。  
-{% highlight %}
+{% highlight Windows batch files %}
 #!/usr/bin/env bash
 #
 # Copyright (c) .NET Foundation and contributors. All rights reserved.
