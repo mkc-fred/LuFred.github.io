@@ -20,10 +20,11 @@ finished: true
 
 ### 1.准备工作  
 
-在使用.NET Core前, 你需要通过[brew](http://brew.sh)安装OpenSSL,然后再执行下面的命令:  
+在使用.NET Core前, 你需要通过[brew](http://brew.sh)安装OpenSSL,然后再执行下面的命令:   
+
 >brew update  
 >brew install openssl  
->brew link --force openssl  
+>brew link --force openssl
 
 ### 2.安装.NET Core SDK
 在开始安装前，为确保成功，你需要删除你先前安装的.Net Core版本，通过下面的命令:  
@@ -73,17 +74,20 @@ exit 0
 
 ### 3.初始化代码 
 通过下面的3条命令，我们就可以初始化一个最简单的Hello World 应用了。  
+
 >mkdir hwapp  
 >cd hwapp  
 >dotnet new
 
-### 4.运行应用
+
+### 4.运行应用      
 下面2条命令分别是初始化project.json文件中依赖的包，第二条命令就是允许Hellow World了。
 >dotnet restore  
 >dotnet run  
 
 ![结果]({{ post.url| prepend: site.url  }}/content/images/201605/2016-05-21-DotNetCore01.png)  
-### 4.完成
+
+### 5.完成  
 到这里，我们在MAC环境下的.Net Core算是搭建完成了。官方原文以及其他系统下面的安装可以👀[这里](https://www.microsoft.com/net/core#macosx)。
 
 
