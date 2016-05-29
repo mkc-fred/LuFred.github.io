@@ -29,10 +29,14 @@ layout: default
 <div class="post-content">
     <center>
 	{% if page.subtitle %}
-	<p>{{ page.subtitle }}</p>
+	<p style="margin-bottom:0px">{{ page.subtitle }}
+	{% if page.subtitleAuthor %}
+	<p style="text-align:right;margin-top:0px">{{ page.subtitleAuthor }}</p>
+	{% endif %}
+	</p>
 	{% endif %}
     </center>
-	<h2>Directory</h2>
+	<h2>目录</h2>
 </div>
 
 <div id="category"></div>

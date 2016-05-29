@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "单例模式"
-subtitle: "单例模式."
+subtitle: "每一个模式描述了一个在外面周围不断重复发生的问题，以及该问题的解决方案的核心。这样，你就能一次又一次地使用该方案而不必做重复劳动。"
+subtitleAuthor: "——克里斯托弗·亚历山大"
 date: 2016-05-13
 author: LuJiangBo
 category: Software design pattern
