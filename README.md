@@ -1,2 +1,2 @@
 # LuFred.github.io
-My Blog
+[Blog Url](http://lufred.github.io/)
